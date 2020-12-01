@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECCA807B-84F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5D6ABC31-C889-47F1-8733-9D6206005042}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraImpostoApi.Testes", "test\CalculadoraImpostoApi.Testes\CalculadoraImpostoApi.Testes.csproj", "{84AEB4DA-8ED6-4BFC-A80D-7DEF53BD6043}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,8 +18,13 @@ Global
 		{4F55809C-6510-4802-9A86-C4E43D8B1EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F55809C-6510-4802-9A86-C4E43D8B1EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F55809C-6510-4802-9A86-C4E43D8B1EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AEB4DA-8ED6-4BFC-A80D-7DEF53BD6043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AEB4DA-8ED6-4BFC-A80D-7DEF53BD6043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AEB4DA-8ED6-4BFC-A80D-7DEF53BD6043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AEB4DA-8ED6-4BFC-A80D-7DEF53BD6043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4F55809C-6510-4802-9A86-C4E43D8B1EE6} = {ECCA807B-84F0-4598-AA6A-58CF7D5B8DEC}
+		{84AEB4DA-8ED6-4BFC-A80D-7DEF53BD6043} = {5D6ABC31-C889-47F1-8733-9D6206005042}
 	EndGlobalSection
 EndGlobal
