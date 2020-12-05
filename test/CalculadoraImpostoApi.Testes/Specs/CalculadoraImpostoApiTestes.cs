@@ -4,6 +4,9 @@ using NUnit.Framework;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
+using WireMock.RequestBuilders;
+using WireMock.ResponseBuilders;
+using WireMock.Server;
 
 namespace CalculadoraImpostoApi.Testes.Specs
 {
@@ -15,8 +18,20 @@ namespace CalculadoraImpostoApi.Testes.Specs
         }
 
         [Test]
-        public async Task PostDeveRetornarResultadoDoSalario()
+        public async Task PostDeveRetornarResultadoDoSalarioCalculadoDeAcordoComTabela()
         {
+            const string tabelaIR = @"{""faixas"": [
+                            {
+                                ""valorInicial"": 2000.00,
+                                ""valorFinal"": 3500.00,
+                                ""aliquota"": 10
+                            }
+                        ]}";
+
+            var server = WireMockServer.Start(7070);
+            server.Given(Request.Create().UsingAnyMethod())
+                .RespondWith(Response.Create().WithBody(tabelaIR));
+            
             var response = await _httpClient.PostAsync("salarioLiquido/3000", new StringContent(""));
             
             var tabelaJson = await response.Content.ReadAsStringAsync();
@@ -25,7 +40,7 @@ namespace CalculadoraImpostoApi.Testes.Specs
                 PropertyNameCaseInsensitive = true
             });
 
-            resultado.ValorCalculado.Should().Be(2550);
+            resultado.ValorCalculado.Should().Be(2700);
         }
     }
 }

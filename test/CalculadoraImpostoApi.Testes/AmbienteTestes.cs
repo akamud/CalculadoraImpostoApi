@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.EntityFrameworkCore;
@@ -19,9 +20,10 @@ namespace CalculadoraImpostoApi.Testes
             Factory = new WebApplicationFactory<Startup>().WithWebHostBuilder(builder =>
             {
                 builder.ConfigureTestServices(services =>
-                {
-                    // Configura mocks
-                });
+                    {
+                        // Configura mocks
+                    })
+                    .UseEnvironment("Test");
             });
 
             using var scopeMigration = Factory.Services.CreateScope();
@@ -30,7 +32,7 @@ namespace CalculadoraImpostoApi.Testes
             impostoRendaContext.Database.EnsureDeleted();
             impostoRendaContext.Database.Migrate();
 
-            // Adiciona seed inicial
+            // Adiciona seed inicial de dados no banco
         }
 
         [OneTimeTearDown]

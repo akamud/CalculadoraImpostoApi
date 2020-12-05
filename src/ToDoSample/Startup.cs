@@ -16,12 +16,14 @@ namespace ToDoSample
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly IHostEnvironment _hostEnvironment;
+        public IConfiguration Configuration { get; }
+
+        public Startup(IConfiguration configuration, IHostEnvironment hostEnvironment)
         {
+            _hostEnvironment = hostEnvironment;
             Configuration = configuration;
         }
-
-        public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {
@@ -55,9 +57,13 @@ namespace ToDoSample
                             }
                             ]
                         }";
-            var server = WireMockServer.Start(7070);
-            server.Given(Request.Create().UsingAnyMethod())
-                .RespondWith(Response.Create().WithBody(tabelaJson));
+
+            if (!_hostEnvironment.IsEnvironment("Test"))
+            {
+                var server = WireMockServer.Start(7070);
+                server.Given(Request.Create().UsingAnyMethod())
+                    .RespondWith(Response.Create().WithBody(tabelaJson));
+            }
 
             services.AddHttpClient<IServicoImpostoRenda, ServicoImpostoRenda>(x => x.BaseAddress = new Uri("http://localhost:7070/"));
         }
