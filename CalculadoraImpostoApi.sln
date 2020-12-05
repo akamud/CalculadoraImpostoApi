@@ -1,6 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoSample", "src\ToDoSample\ToDoSample.csproj", "{4F55809C-6510-4802-9A86-C4E43D8B1EE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraImpostoApi", "src\CalculadoraImpostoApi\CalculadoraImpostoApi.csproj", "{4F55809C-6510-4802-9A86-C4E43D8B1EE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECCA807B-84F0-4598-AA6A-58CF7D5B8DEC}"
 EndProject

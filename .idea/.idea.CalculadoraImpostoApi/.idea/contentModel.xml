@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_CalculadoraImpostoApi.-64833852.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="CalculadoraImpostoApi.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="CalculadoraImpostoApi" t="IncludeRecursive">
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CalculadoraImpostoApi.csproj" t="IncludeRecursive" />
+          <e p="Controllers" t="Include">
+            <e p="HistoricoCalculoController.cs" t="Include" />
+          </e>
+          <e p="Dados" t="Include">
+            <e p="HistoricoCalculo.cs" t="Include" />
+            <e p="ImpostoRendaContext.cs" t="Include" />
+          </e>
+          <e p="HistoricoCalculoRepositorio.cs" t="Include" />
+          <e p="ImpostoRenda" t="Include">
+            <e p="CalculadoraImposto.cs" t="Include" />
+            <e p="FaixaImpostoRenda.cs" t="Include" />
+            <e p="IServicoImpostoRenda.cs" t="Include" />
+            <e p="ServicoImpostoRenda.cs" t="Include" />
+          </e>
+          <e p="Migrations" t="Include">
+            <e p="20201201022553_MigrationInicial.cs" t="Include" />
+            <e p="20201201022553_MigrationInicial.Designer.cs" t="Include" />
+            <e p="ImpostoRendaContextModelSnapshot.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="CalculadoraImpostoApi.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Startup.cs" t="Include" />
+        </e>
+      </e>
+      <e p="test" t="Include">
+        <e p="CalculadoraImpostoApi.Testes" t="IncludeRecursive">
+          <e p="AmbienteTestes.cs" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="CalculadoraImpostoApi.Testes.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="CalculadoraImpostoApi.Testes.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Specs" t="Include">
+            <e p="CalculadoraImpostoApiTestes.cs" t="Include" />
+          </e>
+          <e p="Suporte" t="Include">
+            <e p="TesteBaseApi.cs" t="Include" />
+            <e p="TesteBaseBanco.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
