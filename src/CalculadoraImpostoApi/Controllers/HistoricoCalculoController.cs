@@ -1,6 +1,7 @@
 ﻿using CalculadoraImpostoApi.Dados;
 using CalculadoraImpostoApi.ImpostoRenda;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace CalculadoraImpostoApi.Controllers
@@ -31,6 +32,17 @@ namespace CalculadoraImpostoApi.Controllers
             await _historicoCalculoRepositorio.Inserir(historicoCalculo);
 
             return Ok(new {valorCalculado});
+        }
+        
+        [HttpGet("historico")]
+        public async Task<ActionResult> Get()
+        {
+            var historicos = await _historicoCalculoRepositorio.ObterTodos();
+
+            if (!historicos.Any())
+                return NoContent();
+
+            return Ok(new {dados = historicos});
         }
     }
 }

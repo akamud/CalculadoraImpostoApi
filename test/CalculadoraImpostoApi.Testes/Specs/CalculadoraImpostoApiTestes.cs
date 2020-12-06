@@ -1,6 +1,7 @@
 using CalculadoraImpostoApi.Testes.Suporte;
 using FluentAssertions;
 using NUnit.Framework;
+using System.Net;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -15,6 +16,14 @@ namespace CalculadoraImpostoApi.Testes.Specs
         private class ResultadoSalarioLiquidoDto
         {
             public decimal ValorCalculado { get; set; }
+        }
+
+        [Test]
+        public async Task GetDeveRetornarNoContentQuandoNaoHouverHistoricosInseridos()
+        {
+            var resposta = await _httpClient.GetAsync("salarioLiquido/historico");
+
+            resposta.StatusCode.Should().Be(HttpStatusCode.NoContent);
         }
 
         [Test]

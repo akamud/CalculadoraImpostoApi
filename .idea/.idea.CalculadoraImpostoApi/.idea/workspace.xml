@@ -4,7 +4,11 @@
     <projectFile>src/CalculadoraImpostoApi/CalculadoraImpostoApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b0e1b99-a1b3-49b7-a7ca-dff00a532ee1" name="Default Changelist" comment="" />
+    <list default="true" id="3b0e1b99-a1b3-49b7-a7ca-dff00a532ee1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Controllers/HistoricoCalculoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Controllers/HistoricoCalculoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculadoraImpostoApi/HistoricoCalculoRepositorio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/HistoricoCalculoRepositorio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CalculadoraImpostoApi.Testes/Specs/CalculadoraImpostoApiTestes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalculadoraImpostoApi.Testes/Specs/CalculadoraImpostoApiTestes.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/CalculadoraImpostoApi/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/CalculadoraImpostoApi/Program.cs" />
+        <option value="$PROJECT_DIR$/test/CalculadoraImpostoApi.Testes/Specs/HistoricoCalculoRepositorioTestes.cs" />
+        <option value="$PROJECT_DIR$/src/CalculadoraImpostoApi/HistoricoCalculoRepositorio.cs" />
+        <option value="$PROJECT_DIR$/src/CalculadoraImpostoApi/Controllers/HistoricoCalculoController.cs" />
+        <option value="$PROJECT_DIR$/test/CalculadoraImpostoApi.Testes/Specs/CalculadoraImpostoApiTestes.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1lFxUxVFlHtiWQrU7Nexl3mkwWu" />
   <component name="ProjectViewState">
@@ -72,13 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607206659547</updated>
       <workItem from="1607206663228" duration="60000" />
+      <workItem from="1607289823869" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -88,5 +105,10 @@
       <screen x="-112" y="-1057" width="1920" height="1057" />
     </state>
     <state x="312" y="-867" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/-112.-1057.1920.1057/0.23.1680.1027@-112.-1057.1920.1057" timestamp="1607206687971" />
+    <state x="511" y="-817" width="672" height="678" key="search.everywhere.popup" timestamp="1607290554098">
+      <screen x="-112" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="511" y="-817" width="672" height="678" key="search.everywhere.popup/-112.-1057.1920.1057/0.23.1680.1027@-112.-1057.1920.1057" timestamp="1607290554098" />
+    <state x="511" y="-835" width="672" height="693" key="search.everywhere.popup/-112.-1080.1920.1080/0.0.1680.1050@-112.-1080.1920.1080" timestamp="1607290467827" />
   </component>
 </project>

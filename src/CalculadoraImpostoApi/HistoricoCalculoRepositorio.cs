@@ -1,4 +1,6 @@
 using CalculadoraImpostoApi.Dados;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace CalculadoraImpostoApi
@@ -17,5 +19,8 @@ namespace CalculadoraImpostoApi
             await _context.AddAsync(historicoCalculo);
             await _context.SaveChangesAsync();
         }
+
+        public async Task<IReadOnlyCollection<HistoricoCalculo>> ObterTodos() =>
+            await _context.HistoricoCalculos.ToListAsync();
     }
 }

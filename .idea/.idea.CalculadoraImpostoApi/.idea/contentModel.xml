@@ -68,6 +68,7 @@
           </e>
           <e p="Specs" t="Include">
             <e p="CalculadoraImpostoApiTestes.cs" t="Include" />
+            <e p="HistoricoCalculoRepositorioTestes.cs" t="Include" />
           </e>
           <e p="Suporte" t="Include">
             <e p="TesteBaseApi.cs" t="Include" />
