@@ -1,6 +1,4 @@
-using System;
-
-namespace ToDoSample.Dados
+namespace CalculadoraImpostoApi.Dados
 {
     public class HistoricoCalculo
     {

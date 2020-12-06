@@ -1,9 +1,9 @@
+using CalculadoraImpostoApi.Dados;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
 using Respawn;
 using System.Threading.Tasks;
-using ToDoSample.Dados;
 
 namespace CalculadoraImpostoApi.Testes.Suporte
 {

@@ -1,7 +1,7 @@
+using CalculadoraImpostoApi.Dados;
 using System.Threading.Tasks;
-using ToDoSample.Dados;
 
-namespace ToDoSample
+namespace CalculadoraImpostoApi
 {
     public class HistoricoCalculoRepositorio
     {

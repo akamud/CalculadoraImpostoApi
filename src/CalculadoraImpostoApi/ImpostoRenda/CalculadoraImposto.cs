@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace ComecandoTestes.ImpostoRenda
+namespace CalculadoraImpostoApi.ImpostoRenda
 {
     public class CalculadoraImposto
     {

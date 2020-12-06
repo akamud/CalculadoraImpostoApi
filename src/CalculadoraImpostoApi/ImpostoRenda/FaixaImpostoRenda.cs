@@ -1,4 +1,4 @@
-namespace ComecandoTestes
+namespace CalculadoraImpostoApi.ImpostoRenda
 {
     public class TabelaIR
     {

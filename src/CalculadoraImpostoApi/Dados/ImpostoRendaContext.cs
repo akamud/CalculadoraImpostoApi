@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ToDoSample.Dados
+namespace CalculadoraImpostoApi.Dados
 {
     public class ImpostoRendaContext : DbContext
     {

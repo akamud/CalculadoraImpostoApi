@@ -1,9 +1,9 @@
-﻿using ComecandoTestes.ImpostoRenda;
+﻿using CalculadoraImpostoApi.Dados;
+using CalculadoraImpostoApi.ImpostoRenda;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using ToDoSample.Dados;
 
-namespace ToDoSample.Controllers
+namespace CalculadoraImpostoApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

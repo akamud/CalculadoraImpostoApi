@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ToDoSample.Migrations
+namespace CalculadoraImpostoApi.Migrations
 {
     public partial class MigrationInicial : Migration
     {

@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace ComecandoTestes
+namespace CalculadoraImpostoApi.ImpostoRenda
 {
     public interface IServicoImpostoRenda
     {

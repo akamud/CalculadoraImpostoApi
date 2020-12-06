@@ -1,5 +1,5 @@
-using ComecandoTestes;
-using ComecandoTestes.ImpostoRenda;
+using CalculadoraImpostoApi.Dados;
+using CalculadoraImpostoApi.ImpostoRenda;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -7,12 +7,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using ToDoSample.Dados;
 using WireMock.RequestBuilders;
 using WireMock.ResponseBuilders;
 using WireMock.Server;
 
-namespace ToDoSample
+namespace CalculadoraImpostoApi
 {
     public class Startup
     {

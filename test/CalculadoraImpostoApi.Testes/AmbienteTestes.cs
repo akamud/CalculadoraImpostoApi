@@ -1,11 +1,10 @@
+using CalculadoraImpostoApi.Dados;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
-using ToDoSample;
-using ToDoSample.Dados;
 
 namespace CalculadoraImpostoApi.Testes
 {
