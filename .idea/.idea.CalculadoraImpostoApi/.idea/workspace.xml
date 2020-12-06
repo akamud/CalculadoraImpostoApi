@@ -4,28 +4,7 @@
     <projectFile>src/CalculadoraImpostoApi/CalculadoraImpostoApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b0e1b99-a1b3-49b7-a7ca-dff00a532ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ToDoSample.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoSample.sln.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Controllers/HistoricoCalculoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Controllers/HistoricoCalculoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Dados/HistoricoCalculo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Dados/HistoricoCalculo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Dados/ImpostoRendaContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Dados/ImpostoRendaContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/HistoricoCalculoRepositorio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/HistoricoCalculoRepositorio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/ImpostoRenda/CalculadoraImposto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/ImpostoRenda/CalculadoraImposto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/ImpostoRenda/FaixaImpostoRenda.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/ImpostoRenda/FaixaImpostoRenda.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/ImpostoRenda/IServicoImpostoRenda.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/ImpostoRenda/IServicoImpostoRenda.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/ImpostoRenda/ServicoImpostoRenda.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/ImpostoRenda/ServicoImpostoRenda.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Migrations/20201201022553_MigrationInicial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Migrations/20201201022553_MigrationInicial.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Migrations/20201201022553_MigrationInicial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Migrations/20201201022553_MigrationInicial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Migrations/ImpostoRendaContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Migrations/ImpostoRendaContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/ToDoSample.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/CalculadoraImpostoApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoSample/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculadoraImpostoApi/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CalculadoraImpostoApi.Testes/CalculadoraImpostoApi.Testes.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalculadoraImpostoApi.Testes/CalculadoraImpostoApi.Testes.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="3b0e1b99-a1b3-49b7-a7ca-dff00a532ee1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,9 +71,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607206659547</updated>
-      <workItem from="1607206663228" duration="26000" />
+      <workItem from="1607206663228" duration="60000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
