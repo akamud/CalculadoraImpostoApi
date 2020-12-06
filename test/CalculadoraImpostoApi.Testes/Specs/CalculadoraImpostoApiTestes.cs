@@ -11,7 +11,7 @@ using WireMock.Server;
 
 namespace CalculadoraImpostoApi.Testes.Specs
 {
-    public class CalculadoraImpostoApi : TesteBaseApi
+    public class CalculadoraImpostoApiTestes : TesteBaseApi
     {
         private class ResultadoSalarioLiquidoDto
         {

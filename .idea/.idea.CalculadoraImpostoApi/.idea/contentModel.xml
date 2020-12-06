@@ -21,7 +21,7 @@
           <e p="bin" t="ExcludeRecursive" />
           <e p="CalculadoraImpostoApi.csproj" t="IncludeRecursive" />
           <e p="Controllers" t="Include">
-            <e p="HistoricoCalculoController.cs" t="Include" />
+            <e p="SalarioLiquidoController.cs" t="Include" />
           </e>
           <e p="Dados" t="Include">
             <e p="HistoricoCalculo.cs" t="Include" />
